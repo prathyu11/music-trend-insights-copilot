@@ -33,3 +33,10 @@ Music labels release many songs and videos. Business teams need a quick way to i
 ## AI Layer
 
 This project uses a local open-source LLM through Ollama to generate executive-friendly recommendations from live YouTube performance data.
+
+## Environment Setup
+
+Create a `.env` file locally:
+
+```bash
+cp .env.example .env
