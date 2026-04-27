@@ -71,3 +71,10 @@ Create a `.env` file locally:
 ```bash
 cp .env.example .env
 ```
+
+## Limitations
+
+- Uses only public YouTube data.
+- Does not include private analytics like watch time, CTR, revenue, retention, or demographics.
+- Momentum score is a simple heuristic, not a trained prediction model.
+- AI recommendations are generated from available metrics and should be used as decision support, not final business truth.
