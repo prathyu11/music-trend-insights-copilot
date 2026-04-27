@@ -5,9 +5,21 @@ import ollama
 st.set_page_config(page_title="Music Trend Insights Copilot", layout="wide")
 
 st.title("🎵 Music Trend Insights Copilot")
+st.markdown("""
+### What this app does
+- Pulls real YouTube data from T-Series
+- Calculates engagement momentum
+- Uses an AI model to generate promotion recommendations
+""")
 st.write("Analyzes live T-Series YouTube data and generates AI-powered promotion recommendations.")
 
 df = pd.read_csv("tseries_music_data.csv")
+st.download_button(
+    label="Download Data as CSV",
+    data=df.to_csv(index=False),
+    file_name="tseries_music_data.csv",
+    mime="text/csv"
+)
 
 st.subheader("Recent Video Performance Data")
 st.dataframe(df)
