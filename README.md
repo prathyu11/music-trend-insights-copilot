@@ -24,7 +24,7 @@ Music labels release many songs and videos. Business teams need a quick way to i
 
 ## App Preview
 
-![App Preview](app_screenshot.png)
+![App Preview](app_screenshot1.png app_screenshot2.png app_screenshot3.png)
 
 ## How to run
 
