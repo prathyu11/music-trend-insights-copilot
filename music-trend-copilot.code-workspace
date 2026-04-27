@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../ai-data-copilot"
+		},
+		{
+			"path": "../../ai-data-copilot-venv"
+		}
+	],
+	"settings": {}
+}
