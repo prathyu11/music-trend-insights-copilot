@@ -22,9 +22,9 @@ Music labels release many songs and videos. Business teams need a quick way to i
 - Ollama
 - Llama 3 open-source LLM
 
-## Sample Output
+## App Preview
 
-![AI Output](output.png)
+![App Preview](app_screenshot.png)
 
 ## How to run
 
