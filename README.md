@@ -22,6 +22,10 @@ Music labels release many songs and videos. Business teams need a quick way to i
 - Ollama
 - Llama 3 open-source LLM
 
+## Sample Output
+
+![AI Output](output.png)
+
 ## How to run
 
 ```bash
