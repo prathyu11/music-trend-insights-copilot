@@ -28,6 +28,24 @@ Music labels release many songs and videos. Business teams need a quick way to i
 ![App Preview](app_screenshot2.png) 
 ![App Preview](app_screenshot3.png)
 
+## Architecture
+
+```text
+YouTube Data API
+      ↓
+Python Data Pipeline
+      ↓
+CSV Dataset
+      ↓
+Momentum Score Calculation
+      ↓
+Streamlit Dashboard
+      ↓
+Ollama + Llama 3
+      ↓
+AI Promotion Recommendation
+```
+
 ## How to run
 
 ```bash
