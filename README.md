@@ -32,11 +32,13 @@ Music labels release many songs and videos. Business teams need a quick way to i
 ./venv/bin/python fetch_youtube_data.py
 ./venv/bin/python analyze_music_trends.py
 ./venv/bin/python ai_insights.py
+```
 
 ## Run the Streamlit App
 
 ```bash
 ./venv/bin/python -m streamlit run app.py
+```
 
 ## AI Layer
 
@@ -48,3 +50,4 @@ Create a `.env` file locally:
 
 ```bash
 cp .env.example .env
+```
