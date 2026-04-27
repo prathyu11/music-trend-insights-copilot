@@ -19,9 +19,17 @@ Music labels release many songs and videos. Business teams need a quick way to i
 - Python
 - YouTube Data API v3
 - Pandas
+- Ollama
+- Llama 3 open-source LLM
 
 ## How to run
 
 ```bash
 ./venv/bin/python fetch_youtube_data.py
 ./venv/bin/python analyze_music_trends.py
+./venv/bin/python ai_insights.py
+
+
+## AI Layer
+
+This project uses a local open-source LLM through Ollama to generate executive-friendly recommendations from live YouTube performance data.
