@@ -64,6 +64,23 @@ AI Promotion Recommendation
 
 This project uses a local open-source LLM through Ollama to generate executive-friendly recommendations from live YouTube performance data.
 
+## Machine Learning Layer
+
+The project includes a trained Random Forest classifier that predicts promotion priority as High, Medium, or Low using engineered YouTube performance features.
+
+Features used:
+
+- Views
+- Likes
+- Comments
+- Days since release
+- Views per day
+- Likes per day
+- Comments per day
+- Momentum score
+
+The ML prediction is then shown in the Streamlit dashboard and used by the LLM to generate a business recommendation.
+
 ## Environment Setup
 
 Create a `.env` file locally:
