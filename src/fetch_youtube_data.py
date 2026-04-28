@@ -61,6 +61,6 @@ for i, item in enumerate(res["items"]):
     })
 
 df = pd.DataFrame(videos_data)
-df.to_csv("tseries_music_data.csv", index=False)
+df.to_csv("data/tseries_music_data.csv", index=False)
 
 print("Data saved to tseries_music_data.csv")

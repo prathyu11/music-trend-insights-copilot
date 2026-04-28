@@ -14,10 +14,10 @@ st.markdown("""
 """)
 st.write("Analyzes live T-Series YouTube data and generates AI-powered promotion recommendations.")
 
-df = pd.read_csv("tseries_music_data.csv")
+df = pd.read_csv("data/tseries_music_data.csv")
 
-model = joblib.load("promotion_priority_model.pkl")
-features = joblib.load("model_features.pkl")
+model = joblib.load("models/promotion_priority_model.pkl")
+features = joblib.load("models/model_features.pkl")
 
 df["promotion_priority"] = model.predict(df[features])
 

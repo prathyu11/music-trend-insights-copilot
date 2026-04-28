@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("tseries_music_data.csv")
+df = pd.read_csv("data/tseries_music_data.csv")
 
 top = df.sort_values("momentum_score", ascending=False).head(3)
 

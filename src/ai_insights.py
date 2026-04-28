@@ -1,7 +1,7 @@
 import pandas as pd
 import ollama
 
-df = pd.read_csv("tseries_music_data.csv")
+df = pd.read_csv("data/tseries_music_data.csv")
 
 top_videos = df.sort_values("momentum_score", ascending=False).head(5)
 

@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 
 
-df = pd.read_csv("tseries_music_data.csv")
+df = pd.read_csv("data/tseries_music_data.csv")
 
 # Create labels from momentum score
 # Top 30% = High, middle 40% = Medium, bottom 30% = Low
@@ -58,10 +58,10 @@ predictions = model.predict(X_test)
 print("Model evaluation:")
 print(classification_report(y_test, predictions, zero_division=0))
 
-joblib.dump(model, "promotion_priority_model.pkl")
-joblib.dump(features, "model_features.pkl")
+joblib.dump(model, "models/promotion_priority_model.pkl")
+joblib.dump(features, "models/model_features.pkl")
 
-df.to_csv("tseries_music_data_with_labels.csv", index=False)
+df.to_csv("data/tseries_music_data_with_labels.csv", index=False)
 
 print("Saved trained model: promotion_priority_model.pkl")
 print("Saved labeled data: tseries_music_data_with_labels.csv")
