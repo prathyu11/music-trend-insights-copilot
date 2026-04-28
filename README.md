@@ -54,6 +54,17 @@ AI Promotion Recommendation
 ./venv/bin/python ai_insights.py
 ```
 
+## Train the ML Model
+
+```bash
+./venv/bin/python train_model.py
+```
+This creates:
+
+promotion_priority_model.pkl
+model_features.pkl
+tseries_music_data_with_labels.csv
+
 ## Run the Streamlit App
 
 ```bash
