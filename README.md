@@ -46,6 +46,14 @@ Ollama + Llama 3
 AI Promotion Recommendation
 ```
 
+## Demo Flow
+
+1. Fetch live T-Series YouTube data.
+2. Calculate engagement and momentum metrics.
+3. Train a Random Forest model to classify promotion priority.
+4. Open the Streamlit dashboard.
+5. Review top videos, ML priority, and AI-generated recommendation.
+
 ## How to run
 
 ```bash
