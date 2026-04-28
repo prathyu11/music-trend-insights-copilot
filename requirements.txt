@@ -2,3 +2,5 @@ requests
 pandas
 ollama
 streamlit
+scikit-learn
+joblib
